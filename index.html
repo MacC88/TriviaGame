@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>TriviaGame</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <div id="main">
+        <header>
+            <h1 id="head">This is the Trivia Game</h1>
+        </header>
+        <span id="timer"></span>
+        <br>
+        <br>
+        
+            <p>Electron have a negative charge</p>
+            <input id="qOne" type="radio" name="one" value="True"/>True
+            <input type="radio" name="one" value="False"/>Fasle
+            <br>
+            <br>
+            <p>Semiconductors have 4 electrons in its outer shell</p>
+            <input id="qTwo" type="radio" name="two" value="True"/>True
+            <input type="radio" name="two" value="False"/>Fasle
+            <br>
+            <br>
+            <p>Copper is the best metal to transfer electrons</p>
+            <input type="radio" name="three" value="True"/>True
+            <input id="qThree" type="radio" name="three" value="False"/>Fasle
+            <br>
+            <br>
+            <p>Which one of these metals is the best conductor?</p>
+            <input type="radio" name="four" value="True"/>Copper
+            <input id="qFour" type="radio" name="four" value="False"/>Gold
+            <input type="radio" name="four" value="True"/>Silicon
+            <br>
+            <br>
+            <p>V=A*R</p>
+            <input id="qFive" type="radio" name="five" value="True"/>True
+            <input type="radio" name="five" value="False"/>Fasle
+            <br>
+            <br>
+            <p>W=A*V</p>
+            <input  id="qSix" type="radio" name="six" value="True"/>True
+            <input  type="radio" name="six" value="False"/>Fasle
+        </div>
+        <br>
+        <br>
+        <div id="score"></div>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
+    </body>
+</html>

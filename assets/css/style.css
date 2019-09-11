@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: gray;
+}
+
+#head{
+    color: white;
+}
+#timer{
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    font-weight: bold;
+    color: red;
+}
+p{
+    color: white;
+}
+#score{
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 30px;
+}
